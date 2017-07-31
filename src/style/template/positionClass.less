@@ -1,0 +1,34 @@
+.position-class {
+  background-color: @defaultColor;
+  border-top: 1px solid @lineColor;
+  padding: 13px 9px 5px 9px;
+  h5 {
+    .fs(16);
+    font-weight: normal;
+    margin: 0 0 15px 0;
+  }
+  button {
+    background-color: @btnColor;
+    border-radius: 20px;
+    padding: 5px 20px;
+    margin-right: 11px;
+    &.active {
+      background-color: @headBgColor;
+      color: @defaultColor;
+    }
+  }
+  ul {
+    border-top: 1px solid @lineColor;
+    margin: 10px 0 0 0;
+    padding: 0;
+    li {
+      padding: 10px 0;
+      list-style: none;
+      span {
+        color: @dangerColor;
+        right: 10px;
+        top: 20px;
+      }
+    }
+  }
+}

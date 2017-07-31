@@ -1,0 +1,48 @@
+.foot {
+      display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    position: fixed;
+    z-index: 500;
+    bottom: 0;
+    width: 100%;
+    background-color: #F7F7FA;
+  li {
+    display: block;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    padding: 8px 0 0;
+    font-size: 0;
+    color: #999999;
+    text-align: center;
+    &.select {
+     span{
+     color: #09BB07;
+     }
+      
+    }
+    >span{
+      display: block;
+      height: 25px;
+      color: #ccc;
+      font-size: 12px;
+    }
+  }
+  .icon-document {
+    background-image: url(../image/document.png);
+    display:inline-block;
+    width: 25px;
+    height: 21px;
+  }
+  .icon-search {
+    background-image: url(../image/search.png);
+    width: 24px;
+    height: 24px;
+  }
+  .icon-my {
+    background-image: url(../image/my.png);
+    width: 23px;
+    height: 25px;
+  }
+}
